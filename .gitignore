@@ -1,0 +1,5 @@
+node_modules
+
+# For production, locking packages is a good idea
+# But while doing dev, I prefer to skip this
+package-lock.json
