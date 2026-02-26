@@ -1,6 +1,11 @@
 # Steps
+## Create from template
 * `npm create vite@latest . -- --template react-ts`
 * Tweak .gitignore and commit base template
+
+## Add tailwind css and react icons
+* `npm install tailwindcss @tailwindcss/vite react-icons`
+* Update vite.config.ts and src/index.css
 
 
 # Original React + TypeScript + Vite Readme below
