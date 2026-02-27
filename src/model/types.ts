@@ -11,6 +11,8 @@ export interface Person {
   skillSet: SkillSet;
   projects: Project[];
   jobs: Employment[];
+  epicCertifications: string[];
+  misc: string[];
 }
 
 export interface Connections{
@@ -31,6 +33,7 @@ export interface SkillGroup {
 }
 
 export interface Project {
+  needPadding?: boolean,
   title: string;
   timeFrame: string;
   description: string[];

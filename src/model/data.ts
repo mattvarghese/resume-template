@@ -46,23 +46,23 @@ export const resumeData: Resume = {
             title: "CMS 2027 Interfaces",
             bulletPoints: [
                 "Technical lead for Epic's implementation of HL7 FHIR-based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
-                "Led development of end-to-end testing application towards test driven development.",
-                "Mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, OAuth2, and Web Technologies, as well as close coordination with HL7 Standard Bodies and 3rd Party App Developers."
+                "Also led development of end-to-end testing application towards test-driven development.",
+                "Mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, OAuth2, and Web Technologies, as well as close coordination with HL7 Standards bodies and 3rd Party App developers."
               ]
           },
           {
             title: "Unified Authorization Requirements",
             bulletPoints: [
-              "Led the effort to model, build, and unify how health plan prior authorization requirements are captured and executed within Epic.",
-              "Involved deep domain research and understanding, meticulous data-modeling, and reworking various one-off implementations into one consistent and unified whole across Epic.",
-              "Consolidated diverse 'similar but different' configuration editors into a consistent reusable configuration editor framework, reducing maintenance and development lead time."
+              "Led effort to model, build, and unify how health plan prior authorization requirements are captured and executed within Epic.",
+              "Deep domain research and understanding, meticulous data-modeling, and reworking various one-off implementations into one consistent and unified whole across Epic.",
+              "Consolidated diverse 'similar but different' configuration editors into a consistent reusable configuration editor framework, reducing future maintenance and development lead time."
             ]
           },
           {
             title: "Guideline Review Integrations",
             bulletPoints: [
-              "Led the effort to diagnose missing pieces and lose ends in a partially complete project I inherited. Planned and executed project successfully, delivering a mature, robust, and low-defect implementation used today at hundreds of Epic customers.",
-              "Developed a fully functional internal application to test above framework by emulating 3rd party vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards."
+              "Led effort to diagnose missing pieces / loose ends in a partially complete project I inherited. Planned and executed project successfully, delivering a mature, robust, and low-defect implementation used today at hundreds of Epic customers.",
+              "Developed fully functional internal web app to test above project by emulating 3rd party vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards."
             ]
           }
         ]
@@ -93,6 +93,7 @@ export const resumeData: Resume = {
             ]
           },
           {
+            needPadding: true,
             title: "Web Service Decision Support Interfaces",
             bulletPoints: [
               "Led the development of multiple flavors of decision support web services integrations within Epic.",
@@ -129,6 +130,7 @@ export const resumeData: Resume = {
         url: ""
       },
       {
+        needPadding: true,
         title: "Web Based SSH Client",
         description: [
           "Proof of concept allows Web Based SSH access to unix servers, cache etc.",
@@ -147,11 +149,13 @@ export const resumeData: Resume = {
         url: "https://github.com/mattvarghese/HttpResponder"
       },
       {
-        title: "*",
-        description: [],
+        title: "ASDF",
+        description: ["asdf","ghjk"],
         timeFrame: "",
         url: ""
       }
-    ]
+    ],
+    epicCertifications: [],
+    misc: []
   }
 };

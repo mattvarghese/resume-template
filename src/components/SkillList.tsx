@@ -1,4 +1,4 @@
-import { FaLightbulb, FaChevronRight } from 'react-icons/fa';
+import { FaHammer, FaChevronRight } from 'react-icons/fa';
 import type { SkillSet } from '../model/types';
 
 interface Props {
@@ -11,7 +11,7 @@ export const SkillList = ({ skillSet }: Props) => {
       {/* Icon and Title */}
       <div className="flex items-center gap-3">
         <div className="flex-shrink-0 w-8 h-8 border-2 border-[#4da6a6] rounded-full flex items-center justify-center text-[#4da6a6] text-sm">
-          <FaLightbulb />
+          <FaHammer />
         </div>
         <h2 className="text-xl font-bold text-slate-800 uppercase tracking-widest leading-none">
           Skills

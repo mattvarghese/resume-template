@@ -26,7 +26,17 @@ export const EmploymentComponent = ({ employment }: Props) => {
       {/* Experience Sections */}
       <div className="flex flex-col gap-1.5">
         {employment.experiences.map((exp, index) => (
-          <ExperienceComponent key={index} experience={exp} />
+          <>
+            {/* This is a hack to prevent splitting insdie a project when printing
+              * First DIV fills up the gap onn previous page. 
+              * Second DIV add padding in next page */
+            exp.needPadding && 
+            <div className="hidden print:block">
+                <div className="p-2"/>
+                <div className="p-3"/>
+            </div>}
+            <ExperienceComponent key={index} experience={exp} />
+          </>
         ))}
       </div>
     </div>
