@@ -53,7 +53,7 @@ export const PersonContact = ({ connections }: Props) => {
                   target: "_blank", 
                   rel: "noopener noreferrer" 
                 } : {})}
-                className={`text-white text-[11px] font-serif tracking-wide break-all opacity-90 ${
+                className={`text-white text-[11px] font-medium tracking-wide break-all opacity-90 ${
                   isLink ? "hover:text-[#4da6a6] transition-colors cursor-pointer underline decoration-slate-600 underline-offset-4" : ""
                 }`}
               >

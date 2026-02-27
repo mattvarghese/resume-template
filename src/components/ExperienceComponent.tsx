@@ -25,7 +25,7 @@ export const ExperienceComponent = ({ experience }: Props) => {
       {/* Bullet Points */}
       <ul className="flex flex-col gap-1 list-none px-1">
         {experience.bulletPoints.map((point, index) => (
-          <li key={index} className="relative pl-5 text-[12px] leading-tight text-slate-800 font-sans">
+          <li key={index} className="relative pl-5 text-[12px] leading-tight text-slate-800 font-medium">
             <span className="absolute left-1 top-[7px] w-1.5 h-1.5 rounded-full bg-[#4da6a6] shrink-0" />
             {point}
           </li>

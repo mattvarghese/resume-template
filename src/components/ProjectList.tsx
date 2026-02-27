@@ -28,7 +28,7 @@ export const ProjectList = ({ projects }: Props) => {
               * Second DIV add padding in next page */
             project.needPadding && 
             <div className="hidden print:block">
-                <div className="p-4"/>
+                <div className="p-6"/>
                 <div className="p-3"/>
             </div>}
 
@@ -53,7 +53,7 @@ export const ProjectList = ({ projects }: Props) => {
             {project.description.length > 0 && (
               <ul className="flex flex-col gap-1 px-1">
                 {project.description.map((point, pIndex) => (
-                  <li key={pIndex} className="text-[11px] leading-tight text-slate-700 font-sans">
+                  <li key={pIndex} className="text-[11px] leading-tight text-slate-700 font-medium">
                     {point}
                   </li>
                 ))}
@@ -65,7 +65,7 @@ export const ProjectList = ({ projects }: Props) => {
                     href={project.url.startsWith('http') ? project.url : `https://${project.url}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="mt-0.5 flex items-center gap-1.5 text-[10px] text-slate-500 hover:text-[#4da6a6] transition-colors truncate cursor-pointer group"
+                    className="mt-1.5 pl-1.5 flex items-center gap-1.5 text-[10px] text-slate-500 hover:text-[#4da6a6] transition-colors truncate cursor-pointer group"
                 >
                     <FaCode className="shrink-0 size-2 group-hover:text-[#4da6a6]" />
                     <span className="underline decoration-slate-300 underline-offset-2 truncate group-hover:decoration-[#4da6a6]">

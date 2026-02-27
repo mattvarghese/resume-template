@@ -73,14 +73,6 @@ export const resumeData: Resume = {
         timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
-            title: "JSON Serializer/Deserializer for Cache/M",
-            bulletPoints: [
-              "Built an authoritative, efficient, and RFC-compliant JSON Serializer and Deserializer for use on Epic's ANSI-M/Cache database backend.",
-              "This wasn't a task I was given. I could have just used a piece delimited string or a variety of other simpler alternatives. However, I saw a long-term need and rose up with a vision to build it proactively.",
-              "Today, nearly half of Epic's AI and predictive modeling use-cases (as well as several other use-cases) leverage this serailizer and deserializer."
-            ]
-          },
-          {
             title: "Epic Push Notification Broker Service",
             bulletPoints: [
               "High Availability and Redundancy, security, observability",
@@ -93,7 +85,6 @@ export const resumeData: Resume = {
             ]
           },
           {
-            needPadding: true,
             title: "Web Service Decision Support Interfaces",
             bulletPoints: [
               "Led the development of multiple flavors of decision support web services integrations within Epic.",
@@ -160,12 +151,12 @@ export const resumeData: Resume = {
     ],
     projects: [
       {
-        title: "FHIR-based healthcare AI Assistant Chatbot",
+        title: "FHIR-based AI Healthcare Assistant Chatbot",
         description: [
           "Provider or patient facing SMART on FHIR launch gives access to FHIR server.",
           "LLM tools allow GPT-model to execute FHIR queries to access real EHR data.",
           "Chat based interface with sliding context window for conversations.",
-          "Personal learning project within the Epic code-space."
+          "Personal learning project in Epic code-space."
         ],
         timeFrame: "2025 Q2",
         url: ""
@@ -174,7 +165,7 @@ export const resumeData: Resume = {
         needPadding: true,
         title: "Web Based SSH Client",
         description: [
-          "Proof of concept allows Web Based SSH access to unix servers, cache etc.",
+          "Proof of concept allows Web Based SSH access to unix servers, Caché etc.",
           "Avoids Citrix licenses etc., saving money for organizations extending moderated text access to users"
         ],
         timeFrame: "2025 Q3",
@@ -183,20 +174,56 @@ export const resumeData: Resume = {
       {
         title: "HTTP Auto-responder",
         description: [
-          "Web Service development tool allowing preconfigured responses and logging for common HTTP verbs.",
+          "Web Service 'development tool' allowing preconfigured responses and logging for common HTTP verbs.",
           "Similar to Postman Mock Server, but keeps traffic within the enterprise or local network."
         ],
         timeFrame: "2024 Q4",
         url: "https://github.com/mattvarghese/HttpResponder"
       },
       {
-        title: "ASDF",
-        description: ["asdf","ghjk"],
-        timeFrame: "",
+        title: "JSON Library for M/Caché",
+        description: [
+          "RFC-compliant JSON Serializer and Deserializer for ANSI-M/Caché.",
+          "Nearly Half of all Epic's Database AI integrations leverage this library.",
+          "Example of long-term vision in creating generic reusable tooling."
+        ],
+        timeFrame: "2020",
         url: ""
+      },
+      {
+        title: "MIPS Pipeline Simulator",
+        description: [
+          "5-stage pipeline simulaton of MIPS microprocesor. Includes cache simulation, assembler, and terminal.",
+          "Multithreaded application developed with POSIX APIs, C++, Flex, and Bison in 2005.",
+          "In 2025, Vibe-coded a Small-C compiler above the assembler as well."
+        ],
+        timeFrame: "2005, 2025",
+        url: "https://github.com/mattvarghese/coconut"
+      },
+      {
+        title: "This Resume!",
+        description: [
+          "Formatting of this resume was vibe-coded as a TypeScript React web app."
+        ],
+        timeFrame: "2026 Q1",
+        url: "https://github.com/mattvarghese/my-resume"
       }
     ],
-    epicCertifications: [],
-    misc: []
+    epicCertifications: [
+      "Web Tech Camp",
+      "Server Tech Camp",
+      "Clarity Data Model",
+      "EpicCare Inpatient Suite",
+      "Order Transmittal",
+      "Referrals and Authorizations",
+      "Tapestry Health Plan Suite"
+    ],
+    misc: [
+      "Novice (H2) rated Hang-glider pilot",
+      "Solo endorsed VFR student pilot",
+      "ASA 101,103/104,105 rated sailor",
+      "Learned Elementary Russian as adult",
+      "Avid reader, ice-skating, volleyball, XC-skiing, bicycling"
+    ]
   }
 };
