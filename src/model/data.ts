@@ -20,15 +20,15 @@ export const resumeData: Resume = {
         },
         {
           group: " Full stack development",
-          skills: ["TypeScript", "React", "NPM and Node", ".NET/C#", "JSON/JWTs/JWKs", "IIS Hosting", "Nginx basics"]
+          skills: ["TypeScript", "React", "NPM and Node", ".NET/C#", "JSON / JWTs / JWKs", "IIS Hosting", "Nginx basics"]
         },
         {
           group: "AI Tools & LLMs",
           skills: ["Orchestrating large projects with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors", "llama / ollama", "Jupyter Lab"]
         },
         {
-          group: "Strong Knowledge of Networking",
-          skills: ["ISO-OSI model", "OAuth2", "Familiarity with numerous RFCs", "Encryption standards", "Authentication standards"]
+          group: "Systems & Networking Strength",
+          skills: ["ISO-OSI model", "OAuth2", "Familiarity with numerous RFCs", "Encryption standards", "Authentication standards", "Network Architecture & Routing"]
         },
         {
           group: "Avid GNU/Linux User",

@@ -1,5 +1,5 @@
-import type { Resume } from './types';
-import { resumeData } from './data';
+import type { Resume } from './model/types';
+import { resumeData } from './model/data';
 import { PersonSummary } from './components/PersonSummary';
 import { PersonContact } from './components/PersonContact';
 import { SideBar } from './components/SideBar';

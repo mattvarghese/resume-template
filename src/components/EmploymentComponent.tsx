@@ -1,4 +1,4 @@
-import type { Employment } from '../types';
+import type { Employment } from '../model/types';
 import { ExperienceComponent } from './ExperienceComponent';
 
 interface Props {

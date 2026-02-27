@@ -1,4 +1,4 @@
-import type { Connections } from '../types';
+import type { Connections } from '../model/types';
 import { 
   FaEnvelope, 
   FaPhoneAlt, 
