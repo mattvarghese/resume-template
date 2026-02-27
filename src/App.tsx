@@ -28,6 +28,10 @@ const App = () => {
            <SideBar>
              <SkillList skillSet={data.person.skillSet} />
              <ProjectList projects={data.person.projects} />
+             {/* extra padding for sidebar if required */}
+             <div className="hidden print:block">
+              <div className="pt-10" /> 
+             </div>
            </SideBar>
         </div>
       </div>
