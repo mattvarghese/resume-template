@@ -20,11 +20,11 @@ export const resumeData: Resume = {
         },
         {
           group: " Full stack development",
-          skills: ["TypeScript", "React", ".NET/C#", "JSON/JWTs/JWKs", "IIS Hosting", "Nginx basics"]
+          skills: ["TypeScript", "React", "NPM and Node", ".NET/C#", "JSON/JWTs/JWKs", "IIS Hosting", "Nginx basics"]
         },
         {
           group: "AI Tools & LLMs",
-          skills: ["orchestrating large projects with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors", "llama / ollama", "Jupyter Lab"]
+          skills: ["Orchestrating large projects with AI", "Maintainable Architecture", "LLM APIs", "LLM Connectors", "llama / ollama", "Jupyter Lab"]
         },
         {
           group: "Strong Knowledge of Networking",
@@ -32,7 +32,7 @@ export const resumeData: Resume = {
         },
         {
           group: "Avid GNU/Linux User",
-          skills: ["Virtualization: KVM, VMware", "Docker","Hadoop", "Raspberry Pis", "SVN & Git"]
+          skills: ["Virtualization: KVM & VMware", "Docker","Hadoop", "Raspberry Pis", "SVN & Git"]
         }
       ]
     },
@@ -45,25 +45,24 @@ export const resumeData: Resume = {
           {
             title: "CMS 2027 Interfaces",
             bulletPoints: [
-                "Technical leader for Epic's implementation of the HL7 FHIR based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
-                "Fully responsible for Epic's DTR implementation, and technical advisor for CRD and PAS.",
-                "Additionally, led the development of a robust and extensive end-to-end testing application to emulate both upstream providers and downstream delegates, allowing extensive testing and test driven development for the CMS 2027 regulatory requirements. ",
-                "Involved deep mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, and OAuth2 standards, as well as close coordination with Standard Bodies and Third Party Application Developers."
+                "Technical lead for Epic's implementation of HL7 FHIR-based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
+                "Led development of end-to-end testing application towards test driven development.",
+                "Mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, OAuth2, and Web Technologies, as well as close coordination with HL7 Standard Bodies and 3rd Party App Developers."
               ]
           },
           {
             title: "Unified Authorization Requirements",
             bulletPoints: [
-              "Led the effort to model, build, and unify how health plan prior authorization requirements are captured and executed within Epic. ",
-              "Involved deep domain research and understanding, meticulous data-modeling, and reworking various one-off implementations into one consistent and unified whole that worked across the company.",
-              "In the process, also consolidated diverse 'similar but different' configuration editors into a consistent reusable configuration editor framework, including absorbing existing implementations, thereby reducing maintenance burden for existing projects and development lead time for new ones. Today this framework has been adopted by a a dozen subsequent use-cases."
+              "Led the effort to model, build, and unify how health plan prior authorization requirements are captured and executed within Epic.",
+              "Involved deep domain research and understanding, meticulous data-modeling, and reworking various one-off implementations into one consistent and unified whole across Epic.",
+              "Consolidated diverse 'similar but different' configuration editors into a consistent reusable configuration editor framework, reducing maintenance and development lead time."
             ]
           },
           {
             title: "Guideline Review Integrations",
             bulletPoints: [
               "Led the effort to diagnose missing pieces and lose ends in a partially complete project I inherited. Planned and executed project successfully, delivering a mature, robust, and low-defect implementation used today at hundreds of Epic customers.",
-              "Developed a fully functional internal application to test above framework fully by emulating 3rd party vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards."
+              "Developed a fully functional internal application to test above framework by emulating 3rd party vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards."
             ]
           }
         ]

@@ -12,7 +12,7 @@ export const PersonSummary = ({ person }: Props) => {
   });
 
   return (
-    <div className="relative flex bg-slate-100 rounded-sm overflow-hidden h-48">
+    <div className="relative flex bg-slate-100 rounded-l-sm overflow-hidden h-48">
       {/* Date in top right - shrunk to 9px for a true "metadata" look */}
       <div className="absolute top-2 right-4 text-[9px] text-slate-600 font-mono italic tracking-tighter uppercase opacity-70">
         {today}

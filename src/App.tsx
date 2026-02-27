@@ -19,18 +19,14 @@ const App = () => {
         <main className="w-[70%] flex flex-col p-1 gap-1 ">
            <PersonSummary person={data.person} />
            <WorkExperience jobs={data.person.jobs} />
-           {/* Content... */}
         </main>
 
         {/* Right Column */}
         <div className="w-[30%] flex flex-col p-1">
-           <div className="p-2 bg-[#2c3e50] mb-2">
-             <PersonContact connections={data.person.connections} />
-           </div>
+           <PersonContact connections={data.person.connections} />
            <SideBar>
              <SkillList skillSet={data.person.skillSet} />
            </SideBar>
-           {/* Content... */}
         </div>
       </div>
     </div>

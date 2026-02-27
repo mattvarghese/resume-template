@@ -14,7 +14,7 @@ export const EmploymentComponent = ({ employment }: Props) => {
       </h3>
 
       {/* Company Name & Date Range - Now on the same line */}
-      <div className="flex justify-between items-baseline mt-1 mb-1.5">
+      <div className="flex justify-between items-baseline mt-0 mb-1">
         <div className="text-lg font-semibold text-slate-900">
           {employment.company}
         </div>
