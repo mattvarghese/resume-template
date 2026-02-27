@@ -1,0 +1,34 @@
+import type { Employment } from '../types';
+import { ExperienceComponent } from './ExperienceComponent';
+
+interface Props {
+  employment: Employment;
+}
+
+export const EmploymentComponent = ({ employment }: Props) => {
+  return (
+    <div className="flex flex-col mb-4 last:mb-0 experience-item">
+      {/* Main Job Title */}
+      <h3 className="text-xl font-bold text-slate-950 leading-none">
+        {employment.title}
+      </h3>
+
+      {/* Company Name & Date Range - Now on the same line */}
+      <div className="flex justify-between items-baseline mt-1 mb-1.5">
+        <div className="text-lg font-semibold text-slate-900">
+          {employment.company}
+        </div>
+        <span className="text-[11px] font-semibold text-[#4da6a6] italic uppercase tracking-wider">
+          {employment.timeFrame}
+        </span>
+      </div>
+
+      {/* Experience Sections */}
+      <div className="flex flex-col gap-1.5">
+        {employment.experiences.map((exp, index) => (
+          <ExperienceComponent key={index} experience={exp} />
+        ))}
+      </div>
+    </div>
+  );
+};

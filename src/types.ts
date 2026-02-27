@@ -41,7 +41,7 @@ export interface Employment {
   title: string;
   company: string;
   timeFrame: string;
-
+  experiences: Experience[];
 }
 
 export interface Experience {

@@ -21,7 +21,7 @@ export const PersonContact = ({ connections }: Props) => {
   ];
 
   return (
-    <div className="bg-[#2c3e50] p-3 pt-5 rounded-sm flex flex-col gap-1.5 h-52">
+    <div className="bg-[#2c3e50] p-2 pt-1 rounded-sm flex flex-col gap-1.5 h-44">
       {contactItems.map((item, index) => {
         const isLink = !!item.href;
         const ContentTag = isLink ? 'a' : 'span';

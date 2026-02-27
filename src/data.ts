@@ -36,7 +36,74 @@ export const resumeData: Resume = {
         }
       ]
     },
-    jobs: [],
+    jobs: [
+      {
+        company: "Epic - Verona, WI",
+        title: "Software Systems Architect, Health Plans",
+        timeFrame: "March 2021 - Present",
+        experiences: [
+          {
+            title: "CMS 2027 Interfaces",
+            bulletPoints: [
+                "Technical leader for Epic's implementation of the HL7 FHIR based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
+                "Fully responsible for Epic's DTR implementation, and technical advisor for CRD and PAS.",
+                "Additionally, led the development of a robust and extensive end-to-end testing application to emulate both upstream providers and downstream delegates, allowing extensive testing and test driven development for the CMS 2027 regulatory requirements. ",
+                "Involved deep mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, and OAuth2 standards, as well as close coordination with Standard Bodies and Third Party Application Developers."
+              ]
+          },
+          {
+            title: "Unified Authorization Requirements",
+            bulletPoints: [
+              "Led the effort to model, build, and unify how health plan prior authorization requirements are captured and executed within Epic. ",
+              "Involved deep domain research and understanding, meticulous data-modeling, and reworking various one-off implementations into one consistent and unified whole that worked across the company.",
+              "In the process, also consolidated diverse 'similar but different' configuration editors into a consistent reusable configuration editor framework, including absorbing existing implementations, thereby reducing maintenance burden for existing projects and development lead time for new ones. Today this framework has been adopted by a a dozen subsequent use-cases."
+            ]
+          },
+          {
+            title: "Guideline Review Integrations",
+            bulletPoints: [
+              "Led the effort to diagnose missing pieces and lose ends in a partially complete project I inherited. Planned and executed project successfully, delivering a mature, robust, and low-defect implementation used today at hundreds of Epic customers.",
+              "Developed a fully functional internal application to test above framework fully by emulating 3rd party vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards."
+            ]
+          }
+        ]
+      },
+      {
+        company: "Epic - Verona, WI",
+        title: "Sr. Software Systems Developer, Clinical Informatics",
+        timeFrame: "August 2010 - March 2021",
+        experiences: [
+          {
+            title: "JSON Serializer/Deserializer for Cache/M",
+            bulletPoints: [
+              "Built an authoritative, efficient, and RFC-compliant JSON Serializer and Deserializer for use on Epic's ANSI-M/Cache database backend.",
+              "This wasn't a task I was given. I could have just used a piece delimited string or a variety of other simpler alternatives. However, I saw a long-term need and rose up with a vision to build it proactively.",
+              "Today, nearly half of Epic's AI and predictive modeling use-cases (as well as several other use-cases) leverage this serailizer and deserializer."
+            ]
+          },
+          {
+            title: "Epic Push Notification Broker Service",
+            bulletPoints: [
+              "High Availability and Redundancy, security, observability",
+            ]
+          },
+          {
+            title: "3rd party Web Application integration framework",
+            bulletPoints: [
+              "CORS, Security",
+            ]
+          },
+          {
+            title: "Web Service Decision Support Interfaces",
+            bulletPoints: [
+              "Led the development of multiple flavors of decision support web services integrations within Epic.",
+              "Involved HL7 CDA, HL7 FHIR, and CDS Hooks standards.",
+              "Became the Web Services guru at Epic in the process."
+            ]
+          }
+        ]
+      }
+    ],
     projects: []
   }
 };

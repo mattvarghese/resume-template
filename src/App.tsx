@@ -4,10 +4,11 @@ import { PersonSummary } from './components/PersonSummary';
 import { PersonContact } from './components/PersonContact';
 import { SideBar } from './components/SideBar';
 import { SkillList } from './components/SkillList';
+import { WorkExperience } from './components/WorkExperience';
 
 const App = () => {
   const data: Resume = resumeData;
-  
+
   return (
     <div className="bg-slate-200 min-h-screen py-10 print:p-0 print:bg-white flex flex-col items-center">
 
@@ -15,13 +16,14 @@ const App = () => {
       <div className="relative w-[8.5in] bg-white shadow-2xl print:shadow-none flex min-h-[11in]">
         
         {/* Left Column */}
-        <main className="w-[67%] flex flex-col p-1 gap-1 ">
+        <main className="w-[70%] flex flex-col p-1 gap-1 ">
            <PersonSummary person={data.person} />
+           <WorkExperience jobs={data.person.jobs} />
            {/* Content... */}
         </main>
 
         {/* Right Column */}
-        <div className="w-[33%] flex flex-col p-1">
+        <div className="w-[30%] flex flex-col p-1">
            <div className="p-2 bg-[#2c3e50] mb-2">
              <PersonContact connections={data.person.connections} />
            </div>
