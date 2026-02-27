@@ -70,7 +70,7 @@ export const resumeData: Resume = {
       {
         company: "Epic - Verona, WI",
         title: "Sr. Software Systems Developer, Clinical Informatics",
-        timeFrame: "August 2010 - March 2021",
+        timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
             title: "JSON Serializer/Deserializer for Cache/M",
@@ -106,12 +106,53 @@ export const resumeData: Resume = {
       {
         company: "Epic - Verona, WI",
         title: "Software Development Intern, Clinical Informatics",
-        timeFrame: "June 2009 - August 2009",
+        timeFrame: "June 2009 - Aug. 2009",
         experiences: [
           {
-            title: "Clinical Content Comparison Utility",
+            title: "",
             bulletPoints: [
               "Developed a clinical content comparison utility to allow end users to quickly diff clinical content using DOM APIs and LCS diff algorithm."
+            ]
+          }
+        ]
+      },
+      {
+        company: "University of Wisconsin - Madison, WI",
+        title: "Research Assistant, Condor Distributed Computing",
+        timeFrame: "Sept. 2008 - May 2010",
+        experiences: [
+          {
+            title: "",
+            bulletPoints: [
+              "Developed features to automatically transform regular batch jobs into virtualized jobs running inside VMware Virtual Machines on Condor High Throughput Computing pools.",
+              "Involved strong understanding of Virtualization, VMware, File Systems, Python & C++."
+            ]
+        }
+      ]
+      },
+      {
+        company: "Cisco Systems India Pvt. Ltd. - Bangalore, India",
+        title: "Software Engineer, Enterprise Routing",
+        timeFrame: "June 2006 - July 2008",
+        experiences: [
+          {
+            title: "",
+            bulletPoints: [
+              "Developed configuration interface for NetFlow and logging infrastructure for Traffic Accounting on Cisco GSR routers.",
+              "Platform OS support for Cisco 7500 series routers including Distributed Multi-Link Protocol."
+            ]
+          }
+        ]
+      },
+      {
+        company: "DRDO - Bangalore, India",
+        title: "Intern, Center for Artificial Intelligence and Robotics",
+        timeFrame: "June 2005",
+        experiences: [
+          {
+            title: "",
+            bulletPoints: [
+              "Developed software for objective psychological evaluations using Windows APIs, Visual C++.",
             ]
           }
         ]
@@ -122,8 +163,8 @@ export const resumeData: Resume = {
         title: "FHIR-based healthcare AI Assistant Chatbot",
         description: [
           "Provider or patient facing SMART on FHIR launch gives access to FHIR server.",
-          "LLM tool allows model to execute FHIR queries to access EHR data.",
-          "Chat based interface with sliding context-window for user-interaction.",
+          "LLM tools allow GPT-model to execute FHIR queries to access real EHR data.",
+          "Chat based interface with sliding context window for conversations.",
           "Personal learning project within the Epic code-space."
         ],
         timeFrame: "2025 Q2",
@@ -134,7 +175,7 @@ export const resumeData: Resume = {
         title: "Web Based SSH Client",
         description: [
           "Proof of concept allows Web Based SSH access to unix servers, cache etc.",
-          "Avoids Citrix licensing fees etc., saving money for organizations extending moderated text access to users."
+          "Avoids Citrix licenses etc., saving money for organizations extending moderated text access to users"
         ],
         timeFrame: "2025 Q3",
         url: "https://github.com/mattvarghese/WebSSHClient"

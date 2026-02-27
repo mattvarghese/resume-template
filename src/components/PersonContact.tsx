@@ -34,7 +34,7 @@ export const PersonContact = ({ connections }: Props) => {
   return (
     /* rounded-r-sm applied to match the summary curvature on the right */
     <div className="p-2 bg-[#2c3e50] mb-2 rounded-r-sm">
-      <div className="bg-[#2c3e50] p-2 pt-1 flex flex-col gap-1.5 h-44">
+      <div className="bg-[#2c3e50] p-3 pt-1 flex flex-col gap-1.5 h-44">
         {contactItems.map((item, index) => {
           const isLink = !!item.href;
           const ContentTag = isLink ? 'a' : 'span';
