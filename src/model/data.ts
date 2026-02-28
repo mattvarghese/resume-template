@@ -198,7 +198,7 @@ export const resumeData: Resume = {
       {
         title: "This Resume ;-)",
         description: [
-          "Formatting of this resume is a React app developed with AI-assistance!"
+          "Formatting of this resume is a TypeScript React web app developed with AI-assistance!"
         ],
         timeFrame: "2026 Q1",
         url: "https://github.com/mattvarghese/my-resume"
