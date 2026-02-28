@@ -36,7 +36,7 @@ const App = () => {
             <MiscList misc={data.person.misc} />
             {/* extra padding for sidebar if required */}
             <div className="hidden print:block">
-              <div className="pt-2" />
+              <div className="pt-16" />
             </div>
           </SideBar>
         </div>

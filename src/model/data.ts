@@ -69,7 +69,7 @@ export const resumeData: Resume = {
       },
       {
         company: "Epic - Verona, WI",
-        title: "Sr. Software Systems Developer, Clinical Informatics",
+        title: "Senior Software Systems Developer, Clinical Informatics",
         timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
@@ -77,7 +77,7 @@ export const resumeData: Resume = {
             bulletPoints: [
               "Led team of staff and interns developing the broker service for forwarding all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
               "Designed with high-availability and redundancy from get go, with a load-balanced primary instance on Azure, and a load-balanced on-prem backup instance.",
-              "Among the first high-stakes Epic production application deployed on Azure.",
+              "Among the first high-stakes Epic production applications deployed on Azure.",
               "Responsible for oversight and production deployment for three years with traffic in hundreds of millions range and minimal downtime.",
             ]
           },
@@ -94,8 +94,10 @@ export const resumeData: Resume = {
           {
             title: "Web Service Decision Support Interfaces",
             bulletPoints: [
-              "Led the development of multiple flavors of decision support web services integrations within Epic.",
-              "Involved HL7 CDA, HL7 FHIR, and CDS Hooks standards.",
+              "Architect of all Epic Web Service Decision Support integration capabilities. Includes HL7 FHIR CDS-Hooks based integrations and HL7 CDA based integrations.",
+              "Worked closely with Standards bodies; co-authored CDS Hooks specification.",
+              "Redesigned the decision support configuration to mirror user mental-model.",
+              "Developed a feedback mechanism for providers to return feedback on efficacy of decision support interventions.",
               "Became a recognized leader in REST-ful Web Services within Epic."
             ]
           }
@@ -222,7 +224,7 @@ export const resumeData: Resume = {
       {
         degree: "Master of Science, Computer Science",
         school: "University of Wisconsin - Madison",
-        timeFrame: "2010",
+        timeFrame: "2008-2010",
         bulletPoints: [
           "GPA: 3.938 / 4 | Fully funded Research Assistantship with Condor",
           "Focus: Systems, Networking, Distributed Computing"
@@ -231,7 +233,7 @@ export const resumeData: Resume = {
       {
         degree: "Bachelor of Technology, Computer Science and Engineering",
         school: "National Institute of Technology - Calicut, India",
-        timeFrame: "2006",
+        timeFrame: "2002-2006",
         bulletPoints: [
           "CGPA: 9.60 / 10 | Branch Topper | Gold Medalist",
           "Perfect 10.0 GPA in two semesters"
