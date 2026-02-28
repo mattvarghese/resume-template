@@ -28,7 +28,11 @@ export const ProjectList = ({ projects }: Props) => {
               * Second DIV add padding in next page */
               project.needPadding &&
               <div className="hidden print:block">
-                <div className="p-6" />
+                <div className="hidden print:flex flex-col items-end p-4">
+                  <span className="text-[10px] font-sans font-bold uppercase tracking-widest text-slate-500">
+                    Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
+                  </span>
+                </div>
                 <div className="p-3" />
               </div>}
 

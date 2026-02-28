@@ -35,8 +35,10 @@ const App = () => {
             <EpicCertifications certifications={data.person.epicCertifications} />
             <MiscList misc={data.person.misc} />
             {/* extra padding for sidebar if required */}
-            <div className="hidden print:block">
-              <div className="pt-16" />
+            <div className="hidden print:flex flex-col items-end pt-6 pb-7">
+              <span className="text-[10px] font-serif font-bold uppercase tracking-widest text-slate-500">
+                Page 2 <span className="text-[#4da6a6] mx-1">|</span> 2
+              </span>
             </div>
           </SideBar>
         </div>
