@@ -4,7 +4,7 @@ export const resumeData: Resume = {
   person: {
     name: "Matt | Varghese Mathew",
     title: "Software Architect",
-    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and multi-party integrations. Demonstrated aptitude for delving deeply into new domains, crafting precise minimally invasive yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my massive trove of knowledge and skills to build fascinating and deeply impactful real-world solutions. ",
+    summary: "Visionary software architect and interoperability expert with 20 years of experience designing complex reusable systems and standards-based integrations. Demonstrated aptitude for delving deeply into new domains, and crafting precise, minimally invasive, yet highly successful solutions to challenging problems. In search of new learning and growth opportunities that leverage my massive trove of experience and expertise to build fascinating and deeply impactful real-world solutions.",
     connections: {
       email: "Masked / Ask Me",
       phone: "Masked / Ask Me",
@@ -43,26 +43,29 @@ export const resumeData: Resume = {
         timeFrame: "March 2021 - Present",
         experiences: [
           {
-            title: "CMS 2027 Interfaces",
+            title: "CMS 2027 Interoperability (HL7 Da Vinci CRD/DTR/PAS)",
             bulletPoints: [
-              "Technical lead for Epic's implementation of HL7 FHIR-based CMS 2027 regulatory requirements, spanning HL7 Da Vinci CRD, DTR, and PAS Specifications.",
-              "Also led development of end-to-end testing application towards test-driven development.",
-              "Mastery of CRD, DTR, PAS, FHIR, SMART on FHIR, OAuth2, and Web Technologies, as well as close coordination with HL7 Standards bodies and 3rd Party App developers."
+              "Technical lead for Epic's implementation of HL7 Da Vinci specifications to automate prior authorization, reducing turnaround time for patients and providers.",
+              "Architected payer-end integration of CRD, DTR, and PAS, enabling real-time requirement discovery and electronic submission to meet CMS 2027 mandates.",
+              "Collaborated with HL7 standards bodies and third-party vendors to refine specifications. Developed a separate comprehensive testing suite web application.",
+              "Became a recognized expert on CRD, DTR, and PAS within Epic and in the industry."
             ]
           },
           {
             title: "Unified Authorization Requirements",
             bulletPoints: [
-              "Led effort to model, build, and unify how health plan prior authorization requirements are captured and executed within Epic.",
-              "Deep domain research and understanding, meticulous data-modeling, and reworking various one-off implementations into one consistent and unified whole across Epic.",
-              "Consolidated diverse 'similar but different' configuration editors into a consistent reusable configuration editor framework, reducing future maintenance and development lead time."
+              "Architected centralized 'Source of Truth' for authorization requirements, eliminating data silos between provider queries, authorization review, and claims processing.",
+              "Engineered unified data models and 'Gold-Carding' logic to improve consistency and reduce overhead - foundational layer for Epic's CMS 2027 interoperability suite.",
+              "Consolidated fragmented, 'one-off' configuration tools into a reusable editor framework, decreasing development lead time and long-term maintenance."
             ]
           },
           {
-            title: "Guideline Review Integrations",
+            title: "Medical Necessity Guideline Review Integrations",
             bulletPoints: [
-              "Led effort to diagnose missing pieces / loose ends in a partially complete project I inherited. Planned and executed project successfully, delivering a mature, robust, and low-defect implementation used today at hundreds of Epic customers.",
-              "Developed fully functional internal web app to test above project by emulating 3rd party vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards."
+              "Payers use Medical Necessity Guideline integrations with MCG, InterQual etc. to review appropriateness of requested care for the patient's clinical scenario.",
+              "Supported and later led effort to modernize Epic's Medical Necessity Guideline Review integrations with 3rd parties using a SMART on FHIR based approach.",
+              "Engineered a full-stack emulator of vendor systems, using FHIR, SMART on FHIR, and OAuth2 standards, drastically reducing integration defects.",
+              "Became a recognized expert on Medical Necessity Review integrations within Epic."
             ]
           }
         ]
@@ -73,9 +76,9 @@ export const resumeData: Resume = {
         timeFrame: "Aug. 2010 - March 2021",
         experiences: [
           {
-            title: "Epic Push Notification Broker Service",
+            title: "Epic Push Notification Broker Service for our Mobile Apps",
             bulletPoints: [
-              "Led team of staff and interns developing the broker service for forwarding all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM.",
+              "Led team of staff and interns developing mission-critical broker service routing all Epic customer-generated push notifications on all Epic mobile apps to APNS and GCM - a foundational requirement for push notifications across Epic.",
               "Designed with high-availability and redundancy from get go, with a load-balanced primary instance on Azure, and a load-balanced on-prem backup instance.",
               "Among the first high-stakes Epic production applications deployed on Azure.",
               "Responsible for oversight and production deployment for three years with traffic in hundreds of millions range and minimal downtime.",
@@ -85,20 +88,20 @@ export const resumeData: Resume = {
             needPadding: true,
             title: "3ʳᵈ Party Web Application integration framework",
             bulletPoints: [
-              "Advocated for and centralized all third party web application hosting within Epic into a single framework for accountability, security, and maintainability.",
-              "Architectural advisor and code-reviewer to the team developing this framework, as an iframe hosted within the Epic web application, needing to address Content Security Policy, Cross Origin Resource Sharing, a Web Messaging API suite, etc.",
+              "Advocated for and centralized all third party web application integrations across Epic into a single framework for accountability, security, and maintainability.",
+              "Architectural advisor and code-reviewer to the team developing this framework, as an iframe hosted within the Epic web application, needing to address Content Security Policy, Cross Origin Resource Sharing, and a Web Messaging API suite.",
               "Developed and deployed web applications to test all aspects of this framework.",
-              "Became a recognized leader in Web Applications and Security within Epic."
+              "Became a recognized expert in Web App Integrations and Security within Epic."
             ]
           },
           {
-            title: "Web Service Decision Support Interfaces",
+            title: "Clinical Decision Support (CDS) Web Service Interfaces",
             bulletPoints: [
-              "Architect of all Epic Web Service Decision Support integration capabilities. Includes HL7 FHIR CDS-Hooks based integrations and HL7 CDA based integrations.",
-              "Worked closely with Standards bodies; co-authored CDS Hooks specification.",
-              "Redesigned the decision support configuration to mirror user mental-model.",
-              "Developed a feedback mechanism for providers to return feedback on efficacy of decision support interventions.",
-              "Became a recognized leader in REST-ful Web Services within Epic."
+              "Architect of all Epic Clinical Decision Support (CDS) Web Service integration capabilities. Includes HL7 FHIR CDS-Hooks and HL7 CDA-based integrations.",
+              "Worked closely with standards bodies co-authoring HL7 CDS Hooks specification.",
+              "Redesigned the decision support configuration to mirror analyst mental-model.",
+              "Developed feedback mechanism for providers to gauge efficacy of decision support.",
+              "Became a recognized expert in CDS-Hooks and REST-ful Web Services within Epic."
             ]
           }
         ]
@@ -111,7 +114,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed a clinical content comparison utility to allow end users to quickly diff clinical content using DOM APIs and LCS diff algorithm."
+              "Developed a clinical content comparison utility to allow users to quickly diff clinical content using DOM APIs and LCS diff algorithm, improving content maintainability."
             ]
           }
         ]
@@ -124,7 +127,7 @@ export const resumeData: Resume = {
           {
             title: "",
             bulletPoints: [
-              "Developed features to automatically transform regular batch jobs into virtualized jobs running inside VMware Virtual Machines on Condor High Throughput Computing pools."
+              "Developed capability to run jobs inside VMware Virtual Machines on Condor High Throughput Computing pools, allowing deterministic runtime environments."
             ]
           }
         ]
@@ -148,9 +151,9 @@ export const resumeData: Resume = {
       {
         title: "FHIR-based AI Healthcare Assistant Chatbot",
         description: [
+          "LLM chat web app to answer provider and patient questions using real EHR data.",
           "Provider or patient facing SMART on FHIR launch gives access to FHIR server.",
           "LLM tools allow GPT-model to execute FHIR queries to access real EHR data.",
-          "Chat based interface with sliding context window for conversations.",
           "Personal learning project in Epic code-space."
         ],
         timeFrame: "2025 Q2",
@@ -188,9 +191,9 @@ export const resumeData: Resume = {
       {
         title: "MIPS Pipeline Simulator",
         description: [
-          "5-stage pipeline simulation of a MIPS microprocessor. Includes cache simulation, assembler, and terminal.",
+          "5-Stage pipeline simulation of a MIPS microprocessor hardware. Includes cache simulation, assembler, and terminal app.",
           "Multithreaded application developed with POSIX APIs, C++, Flex, and Bison in 2005.",
-          "In 2025, added a Small-C compiler above the assembler with AI-assistance."
+          "In 2025, developed a Small-C compiler above the assembler with AI-assistance."
         ],
         timeFrame: "2005, 2025",
         url: "https://github.com/mattvarghese/coconut"
@@ -198,7 +201,7 @@ export const resumeData: Resume = {
       {
         title: "This Resume ;-)",
         description: [
-          "This resume is formatted as a React web app developed with AI-assistance!"
+          "This resume is formatted as a React web app that I developed with AI-assistance!"
         ],
         timeFrame: "2026 Q1",
         url: "https://github.com/mattvarghese/my-resume"
@@ -226,7 +229,7 @@ export const resumeData: Resume = {
         school: "University of Wisconsin - Madison",
         timeFrame: "2008-2010",
         bulletPoints: [
-          "GPA: 3.938 / 4 | Fully funded Research Assistantship with Condor",
+          "GPA: 3.94 / 4.0 | Fully funded Research Assistantship",
           "Focus: Systems, Networking, Distributed Computing"
         ]
       },
@@ -235,8 +238,7 @@ export const resumeData: Resume = {
         school: "National Institute of Technology - Calicut, India",
         timeFrame: "2002-2006",
         bulletPoints: [
-          "CGPA: 9.60 / 10 | Branch Topper | Gold Medalist",
-          "Perfect 10.0 GPA in two semesters"
+          "CGPA: 9.60 / 10.0 | Branch Topper | Gold Medalist"
         ]
       }
     ]

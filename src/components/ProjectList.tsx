@@ -33,7 +33,7 @@ export const ProjectList = ({ projects }: Props) => {
                     Page 1 <span className="text-[#4da6a6] mx-1">|</span> 2
                   </span>
                 </div>
-                <div className="p-3" />
+                <div className="p-4" />
               </div>}
 
             {/* Project Title with Icon */}
