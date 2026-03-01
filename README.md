@@ -7,3 +7,4 @@ By releasing this publicly under the **GPLv3** license, I hope to achieve two th
 1. **Community Resource:** Provide an example for others looking for creative ways to craft their own resumes.
 2. **Proof of Concept:** Demonstrate another example of my *out-of-the-box* problem-solving, and my ability to develop structured, intentional applications in a post-AI world.
 
+A generated PDF of the application is also available in this repository if you would like to see what it looks like.

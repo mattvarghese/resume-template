@@ -9,7 +9,7 @@ export const resumeData: Resume = {
       email: "Masked / Ask Me",
       phone: "Masked / Ask Me",
       location: "Madison, WI",
-      linkedIn: "https://www.linkedin.com/in/matt-varghese-b609979",
+      linkedIn: "https://www.linkedin.com/in/matt-varghese",
       github: "https://github.com/mattvarghese"
     },
     skillSet: {
@@ -161,7 +161,7 @@ export const resumeData: Resume = {
         title: "Web Based SSH Client",
         description: [
           "Proof of concept allows Web Based SSH access to unix servers, Caché etc.",
-          "Avoids Citrix licenses etc., saving money for organizations extending moderated text access to users"
+          "Avoids Citrix licenses etc., saving money for organizations extending moderated text access to users."
         ],
         timeFrame: "2025 Q3",
         url: "https://github.com/mattvarghese/WebSSHClient"
